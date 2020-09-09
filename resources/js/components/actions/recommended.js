@@ -1,10 +1,10 @@
-import axios from 'helpers/axios';
-import { addParamsURL } from 'helpers/parseUrl';
+import axios from '@/helpers/axios';
+import { addParamsURL } from '@/helpers/parseUrl';
 import { 
     GET_RECOMMENDED_SUCCESS, 
     GET_RECOMMENDED,
     REFRESH_POSTS
-} from 'constants/recommended';
+} from '@/constants/recommended';
 
 export const getPosts = (hashtag = '', cursor = 0) => async dispatch => {
     dispatch({

@@ -1,9 +1,9 @@
 import React from 'react';
 import classNames from 'classnames';
-import DisableScroll from 'ui/DisableScroll';
-import Empty from 'ui/Empty';
-import { onTouchStart, onTouchEnd, onTouchMove, dropDefault } from 'helpers/updater';
-import { ReactComponent as UpdateIcon } from 'assets/svg/updater.svg';
+import DisableScroll from '@/ui/DisableScroll';
+import Empty from '@/ui/Empty';
+import { onTouchStart, onTouchEnd, onTouchMove, dropDefault } from '@/helpers/updater';
+import { ReactComponent as UpdateIcon } from '@/assets/svg/updater.svg';
 import Item from '../Item';
 import Tabs from '../Tabs';
 import emptyObj from './empty.json';

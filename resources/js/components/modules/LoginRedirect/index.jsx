@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Redirect } from 'react-router-dom';
-import parseUrl from 'helpers/parseUrl';
+import parseUrl from '@/helpers/parseUrl';
 
 const LoginRedirect = ({ location }) => {
     const [ isCloseable, setCloseable ] = useState(true);

@@ -1,6 +1,6 @@
 import { connect } from 'react-redux';
-import PostCreation from 'modules/AdCreation';
-import { createAd, hideAdModal } from 'actions/ads';
+import PostCreation from '@/modules/AdCreation';
+import { createAd, hideAdModal } from '@/actions/ads';
 
 const mapStateToProps = ({ ads }) => ({
     modal: ads.modal

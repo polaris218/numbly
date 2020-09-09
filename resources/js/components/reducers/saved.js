@@ -1,4 +1,4 @@
-import { GET_MY_POSTS, GET_MY_POSTS_SUCCESS, CREATE_POST, HIDE_MODAL } from 'constants/saved';
+import { GET_MY_POSTS, GET_MY_POSTS_SUCCESS, CREATE_POST, HIDE_MODAL } from '@/constants/saved';
 
 const initialState = {
     posts: [],

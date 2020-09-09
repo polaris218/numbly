@@ -1,6 +1,6 @@
 import { connect } from 'react-redux';
-import Reposts from 'modules/Saved';
-import { getPosts, deletePost } from 'actions/saved';
+import Reposts from '@/modules/Saved';
+import { getPosts, deletePost } from '@/actions/saved';
 
 const mapStateToProps = ({ saved }) => ({
     posts: saved.posts,

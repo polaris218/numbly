@@ -1,5 +1,5 @@
 import { connect } from 'react-redux';
-import Content from 'modules/Content';
+import Content from '@/modules/Content';
 
 const mapStateToProps = ({ auth, content }) => ({
     auth: auth.token,

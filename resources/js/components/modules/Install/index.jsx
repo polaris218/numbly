@@ -1,6 +1,6 @@
 import React from 'react';
-import DisableScroll from 'ui/DisableScroll';
-import { isIOS } from 'helpers/device';
+import DisableScroll from '@/ui/DisableScroll';
+import { isIOS } from '@/helpers/device';
 import Step from './Step';
 import iosSteps from './ios';
 import androidSteps from './android';

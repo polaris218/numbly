@@ -1,10 +1,10 @@
 import React from 'react';
 import { Redirect } from 'react-router-dom';
 import { withFormik } from 'formik';
-import Button from 'ui/Button';
-import Image from 'ui/Image';
-import Textarea from 'ui/Textarea';
-import DisableScroll from 'ui/DisableScroll';
+import Button from '@/ui/Button';
+import Image from '@/ui/Image';
+import Textarea from '@/ui/Textarea';
+import DisableScroll from '@/ui/DisableScroll';
 import schema from './formSchema';
 import Modal from './Modal';
 

@@ -1,6 +1,6 @@
 import { connect } from 'react-redux';
-import Boosted from 'modules/Ads';
-import { getPosts, refreshPosts } from 'actions/ads';
+import Boosted from '@/modules/Ads';
+import { getPosts, refreshPosts } from '@/actions/ads';
 
 const mapStateToProps = ({ ads }) => ({
     posts: ads.posts,

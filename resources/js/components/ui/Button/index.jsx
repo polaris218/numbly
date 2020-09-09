@@ -1,6 +1,6 @@
 import React from 'react';
 import classNames from 'classnames/bind';
-import Link from 'ui/Link';
+import Link from '@/ui/Link';
 import styles from './Button.module.sass';
 const cx = classNames.bind(styles);
 

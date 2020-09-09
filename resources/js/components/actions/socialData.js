@@ -1,5 +1,5 @@
-import axios from 'helpers/axios';
-import { GET_SOCIAL_DATA, GET_SOCIAL_DATA_ACTION } from 'constants/socialData';
+import axios from '@/helpers/axios';
+import { GET_SOCIAL_DATA, GET_SOCIAL_DATA_ACTION } from '@/constants/socialData';
 
 export const getSocialData = () => async dispatch => {
     dispatch({

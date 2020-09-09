@@ -1,4 +1,4 @@
-import getHistory from 'helpers/history';
+import getHistory from '@/helpers/history';
 
 export default link => {
     if (!link) {

@@ -1,8 +1,8 @@
 import React from 'react';
 import classNames from 'classnames';
-import getHistory from 'helpers/history';
-import Button from 'ui/Button';
-import Image from 'ui/Image';
+import getHistory from '@/helpers/history';
+import Button from '@/ui/Button';
+import Image from '@/ui/Image';
 
 class Item extends React.Component {
     state = {

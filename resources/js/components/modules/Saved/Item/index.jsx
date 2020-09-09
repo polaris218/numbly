@@ -1,8 +1,8 @@
 import React from 'react';
 import classNames from 'classnames';
-import getHistory from 'helpers/history';
-import Image from 'ui/Image';
-import Button from 'ui/Button';
+import getHistory from '@/helpers/history';
+import Image from '@/ui/Image';
+import Button from '@/ui/Button';
 import styles from './Item.module.sass';
 
 class Item extends React.Component {

@@ -2,10 +2,10 @@ import React from 'react';
 import { connect } from 'react-redux';
 import classNames from 'classnames';
 
-import { logout } from 'actions/auth';
-import { resetProfile } from 'actions/profile';
-import DisableScroll from 'ui/DisableScroll';
-import Logo from 'assets/img/logo.png';
+import { logout } from '@/actions/auth';
+import { resetProfile } from '@/actions/profile';
+import DisableScroll from '@/ui/DisableScroll';
+import Logo from '@/assets/img/logo.png';
 import menu from './menu';
 import MenuItem from './MenuItem';
 

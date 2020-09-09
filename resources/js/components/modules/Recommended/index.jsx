@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 import { connect } from 'react-redux';
-import { getPosts, refreshPosts } from 'actions/recommended';
+import { getPosts, refreshPosts } from '@/actions/recommended';
 import Posts from './Posts';
 
 const refs = {

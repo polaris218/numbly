@@ -1,6 +1,6 @@
-import axios from 'helpers/axios';
-import CookieHelper from 'helpers/CookieHelper';
-import { SET_AUTH, GET_ERROR, SWITCH_TOKEN } from 'constants/auth';
+import axios from '@/helpers/axios';
+import CookieHelper from '@/helpers/CookieHelper';
+import { SET_AUTH, GET_ERROR, SWITCH_TOKEN } from '@/constants/auth';
 import { getProfile, resetProfile } from './profile';
 
 const setAuth = (payload) => ({

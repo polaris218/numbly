@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import classNames from 'classnames';
-import Image from 'ui/Image';
-import formatNumber from 'helpers/formatNumber';
+import Image from '@/ui/Image';
+import formatNumber from '@/helpers/formatNumber';
 
 const Item = ({ image, likes, cost, days }) => {
     const imageLink = `${ process.env.REACT_APP_STORAGE_URL }adposts/${ image }`;

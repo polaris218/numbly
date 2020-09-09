@@ -1,8 +1,8 @@
 import React from 'react';
 import { Redirect } from 'react-router-dom';
-import Button from 'ui/Button';
-import DisableScroll from 'ui/DisableScroll';
-import { parseBusiness } from 'helpers/profile';
+import Button from '@/ui/Button';
+import DisableScroll from '@/ui/DisableScroll';
+import { parseBusiness } from '@/helpers/profile';
 import Modal from './Modal';
 import 'react-dropdown/style.css';
 

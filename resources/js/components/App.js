@@ -7,9 +7,9 @@ import { store } from './reducers';
 import routes from './routes';
 import setRoutes from './config/routing';
 import * as serviceWorker from './config/serviceWorker';
-import getHistory from 'helpers/history';
-import lockOrientation from 'helpers/orientation';
-import processDevice from 'helpers/device';
+import getHistory from '@/helpers/history';
+import lockOrientation from '@/helpers/orientation';
+import processDevice from '@/helpers/device';
 import './styles/index.sass';
 import '@fortawesome/fontawesome-free/js/all.js';
 

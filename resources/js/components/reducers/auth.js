@@ -1,5 +1,5 @@
-import { parseFromCookie } from 'helpers/parseAuthData';
-import { SET_AUTH, GET_ERROR, DELETE_ERROR, SWITCH_TOKEN } from 'constants/auth';
+import { parseFromCookie } from '@/helpers/parseAuthData';
+import { SET_AUTH, GET_ERROR, DELETE_ERROR, SWITCH_TOKEN } from '@/constants/auth';
 
 const initialState = {
     token: parseFromCookie(),

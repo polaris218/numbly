@@ -1,7 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import Button from 'ui/Button';
-import DisableScroll from 'ui/DisableScroll';
+import Button from '@/ui/Button';
+import DisableScroll from '@/ui/DisableScroll';
 
 const goBack = ({ prevPage }) => {
     return prevPage || '/';

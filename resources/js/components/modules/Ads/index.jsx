@@ -1,8 +1,8 @@
 import React, { Fragment } from 'react';
-import { onTouchStart, onTouchEnd, onTouchMove, dropDefault } from 'helpers/updater';
-import DisableScroll from 'ui/DisableScroll';
-import Empty from 'ui/Empty';
-import { ReactComponent as UpdateIcon } from 'assets/svg/updater.svg';
+import { onTouchStart, onTouchEnd, onTouchMove, dropDefault } from '@/helpers/updater';
+import DisableScroll from '@/ui/DisableScroll';
+import Empty from '@/ui/Empty';
+import { ReactComponent as UpdateIcon } from '@/assets/svg/updater.svg';
 import Item from './Item';
 import emptyObj from './empty.json';
 

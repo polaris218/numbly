@@ -1,18 +1,18 @@
-import Home from 'modules/Recommended';
-import Auth from 'modules/Auth';
-import ErrorScreen from 'modules/Auth/Error';
-import Proceed from 'modules/Auth/Proceed';
-import NotFound from 'modules/NotFound';
-import CollectingScreen from 'modules/Auth/BuildProfile';
-import SetupComplete from 'modules/Auth/SetupComplete';
-import Profile from 'modules/Profile';
-import PostCreation from 'containers/PostCreation';
-import AdCreation from 'containers/AdCreation';
-import Ads from 'containers/Ads';
-import LoginRedirect from 'modules/LoginRedirect';
-import Install from 'modules/Install';
-import Saved from 'containers/Saved';
-import Audience from 'containers/Audience';
+import Home from '@/modules/Recommended';
+import Auth from '@/modules/Auth';
+import ErrorScreen from '@/modules/Auth/Error';
+import Proceed from '@/modules/Auth/Proceed';
+import NotFound from '@/modules/NotFound';
+import CollectingScreen from '@/modules/Auth/BuildProfile';
+import SetupComplete from '@/modules/Auth/SetupComplete';
+import Profile from '@/modules/Profile';
+import PostCreation from '@/containers/PostCreation';
+import AdCreation from '@/containers/AdCreation';
+import Ads from '@/containers/Ads';
+import LoginRedirect from '@/modules/LoginRedirect';
+import Install from '@/modules/Install';
+import Saved from '@/containers/Saved';
+import Audience from '@/containers/Audience';
 
 export default [
   {

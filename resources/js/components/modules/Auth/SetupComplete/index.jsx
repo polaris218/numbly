@@ -1,6 +1,6 @@
 import React from 'react';
-import Button from 'ui/Button';
-import DisableScroll from 'ui/DisableScroll';
+import Button from '@/ui/Button';
+import DisableScroll from '@/ui/DisableScroll';
 
 const SetupComplete = () => (
     <DisableScroll>

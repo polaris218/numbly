@@ -4,7 +4,7 @@ import {
     REFRESH_BOOSTED, 
     CREATE_BOOSTED, 
     HIDE_AD_MODAL
-} from 'constants/ads';
+} from '@/constants/ads';
 
 const initialState = {
     posts: [],

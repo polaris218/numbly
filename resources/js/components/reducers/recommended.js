@@ -2,7 +2,7 @@ import {
     GET_RECOMMENDED_SUCCESS, 
     GET_RECOMMENDED,
     REFRESH_POSTS,
-} from 'constants/recommended';
+} from '@/constants/recommended';
 
 const DEFAULT_POSTS = {
     data: [],

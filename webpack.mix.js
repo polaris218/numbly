@@ -11,5 +11,15 @@ const mix = require('laravel-mix');
  |
  */
 
-mix.react('resources/js/app.js', 'public/js')
-   .sass('resources/sass/app.scss', 'public/css');
+mix.webpackConfig({
+      resolve: {
+         extensions: [".js", ".jsx"],
+         alias: {
+            "@": __dirname + "/resources/js/components"
+         }
+      }
+   })
+   .react('resources/js/app.js', 'public/js')
+   // .sass('resources/sass/app.scss', 'public/css')
+   .sass('resources/js/components/styles/index.sass', 'public/css')
+   .options({ processCssUrls: false });

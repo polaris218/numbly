@@ -1,5 +1,5 @@
-import axios from 'helpers/axios';
-import { GET_PROFILE, GET_PROFILE_ACTION, GET_PROFILE_ERROR, RESET_PROFILE } from 'constants/profile';
+import axios from '@/helpers/axios';
+import { GET_PROFILE, GET_PROFILE_ACTION, GET_PROFILE_ERROR, RESET_PROFILE } from '@/constants/profile';
 
 const DEFAULT_ERROR = {
     status: 0,

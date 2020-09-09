@@ -1,4 +1,4 @@
-import { SET_PAGE, SET_MENU } from 'constants/content';
+import { SET_PAGE, SET_MENU } from '@/constants/content';
 
 const initialState = {
     page: '',

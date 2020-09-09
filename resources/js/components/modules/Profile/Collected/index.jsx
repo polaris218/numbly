@@ -1,5 +1,5 @@
 import React from 'react';
-import HashTag from 'ui/HashTag';
+import HashTag from '@/ui/HashTag';
 
 const CollectedData = ({ data, message }) => (
     <section className="profile-social">

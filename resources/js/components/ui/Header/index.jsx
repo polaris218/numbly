@@ -1,6 +1,6 @@
 import React from 'react';
 import classNames from 'classnames';
-import { ReactComponent as BurgerIcon } from 'assets/svg/burger.svg';
+import { ReactComponent as BurgerIcon } from '@/assets/svg/burger.svg';
 
 const isTransparentPage = link => {
     // eslint-disable-next-line

@@ -1,10 +1,10 @@
-import axios from 'helpers/axios';
+import axios from '@/helpers/axios';
 import { 
     GET_MY_POSTS, 
     GET_MY_POSTS_SUCCESS,
     CREATE_POST, 
     HIDE_MODAL
-} from 'constants/saved';
+} from '@/constants/saved';
 
 export const getPosts = (callback) => async dispatch => {
     dispatch({

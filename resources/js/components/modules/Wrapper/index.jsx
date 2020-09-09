@@ -1,11 +1,11 @@
 import React, { useEffect } from 'react';
 import { connect } from 'react-redux';
 import { Redirect } from 'react-router-dom';
-import { setPage as setPageInfo } from 'actions/content';
-import { getProfile } from 'actions/profile';
-import { logout } from 'actions/auth';
-import getHistory from 'helpers/history';
-import { isLoginScreen } from 'helpers/locations';
+import { setPage as setPageInfo } from '@/actions/content';
+import { getProfile } from '@/actions/profile';
+import { logout } from '@/actions/auth';
+import getHistory from '@/helpers/history';
+import { isLoginScreen } from '@/helpers/locations';
 
 const Wrapper = props => {
     const { 

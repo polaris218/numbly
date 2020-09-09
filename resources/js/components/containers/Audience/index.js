@@ -1,6 +1,6 @@
 import { connect } from 'react-redux';
-import Audience from 'modules/Audience';
-import { createAd, hideAdModal } from 'actions/ads';
+import Audience from '@/modules/Audience';
+import { createAd, hideAdModal } from '@/actions/ads';
 
 const mapStateToProps = ({ ads, profile }) => ({
     modal: ads.modal,

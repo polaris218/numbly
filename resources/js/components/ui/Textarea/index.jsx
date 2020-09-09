@@ -1,6 +1,6 @@
 import React from 'react';
 import classNames from 'classnames/bind';
-import { ReactComponent as TimesIcon } from 'assets/svg/times.svg';
+import { ReactComponent as TimesIcon } from '@/assets/svg/times.svg';
 import styles from './Textarea.module.sass';
 const cx = classNames.bind(styles);
 

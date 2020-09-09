@@ -1,11 +1,11 @@
-import axios from 'helpers/axios';
+import axios from '@/helpers/axios';
 import { 
     GET_BOOSTED_SUCCESS, 
     REFRESH_BOOSTED, 
     CREATE_BOOSTED, 
     HIDE_AD_MODAL,
     GET_BOOSTED
-} from 'constants/ads';
+} from '@/constants/ads';
 
 export const getPosts = (page = 0) => async dispatch => {
     dispatch({

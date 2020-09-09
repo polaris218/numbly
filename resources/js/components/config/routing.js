@@ -1,8 +1,8 @@
 import React, { Fragment } from 'react';
 import { Route, Switch } from 'react-router-dom';
-import Content from 'containers/Content';
-import Wrapper from 'modules/Wrapper';
-import NotFound from 'modules/NotFound';
+import Content from '@/containers/Content';
+import Wrapper from '@/modules/Wrapper';
+import NotFound from '@/modules/NotFound';
 
 const renderComponent = (route, props) => (
     <Wrapper pageTitle={ route.pageTitle } { ...props }>

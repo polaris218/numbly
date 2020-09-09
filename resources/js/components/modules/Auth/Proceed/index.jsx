@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { connect } from 'react-redux';
-import getHistory from 'helpers/history';
+import getHistory from '@/helpers/history';
 
 const Proceed = props => {
     const { data, ready, loading } = props;

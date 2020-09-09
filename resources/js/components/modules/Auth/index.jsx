@@ -2,11 +2,11 @@ import React from 'react';
 import { connect } from 'react-redux';
 import classNames from 'classnames';
 
-import { saveAuth } from 'actions/auth';
-import getHistory from 'helpers/history';
-import Button from 'ui/Button';
+import { saveAuth } from '@/actions/auth';
+import getHistory from '@/helpers/history';
+import Button from '@/ui/Button';
 import Login from './Login';
-import DisableScroll from 'ui/DisableScroll';
+import DisableScroll from '@/ui/DisableScroll';
 
 class AuthScreen extends React.Component {
     state = {

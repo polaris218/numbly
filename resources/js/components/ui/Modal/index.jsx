@@ -1,8 +1,8 @@
 import React from 'react';
 import classNames from 'classnames/bind';
-import Button from 'ui/Button';
+import Button from '@/ui/Button';
 import styles from './Modal.module.sass';
-import DisableScroll from 'ui/DisableScroll';
+import DisableScroll from '@/ui/DisableScroll';
 const cx = classNames.bind(styles);
 
 const Modal = props => {

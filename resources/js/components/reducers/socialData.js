@@ -1,4 +1,4 @@
-import { GET_SOCIAL_DATA, GET_SOCIAL_DATA_ACTION } from 'constants/socialData';
+import { GET_SOCIAL_DATA, GET_SOCIAL_DATA_ACTION } from '@/constants/socialData';
 
 const initialState = {
     ready: false,

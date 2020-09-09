@@ -1,4 +1,4 @@
-import { GET_PROFILE, GET_PROFILE_ACTION, GET_PROFILE_ERROR, RESET_PROFILE } from 'constants/profile';
+import { GET_PROFILE, GET_PROFILE_ACTION, GET_PROFILE_ERROR, RESET_PROFILE } from '@/constants/profile';
 
 const initialState = {
     data: { },

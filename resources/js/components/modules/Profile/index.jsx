@@ -1,8 +1,8 @@
 import React from 'react';
 import { connect } from 'react-redux';
 
-import DisableScroll from 'ui/DisableScroll';
-import { parseBusiness } from 'helpers/profile';
+import DisableScroll from '@/ui/DisableScroll';
+import { parseBusiness } from '@/helpers/profile';
 import MainInfo from './Main';
 import SocialBlock from './Social';
 import CollectedData from './Collected';

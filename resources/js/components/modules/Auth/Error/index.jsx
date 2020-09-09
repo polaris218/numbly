@@ -1,10 +1,10 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import classNames from 'classnames';
-import { deleteError } from 'actions/auth';
-import getHistory from 'helpers/history';
-import Button from 'ui/Button';
-import DisableScroll from 'ui/DisableScroll';
+import { deleteError } from '@/actions/auth';
+import getHistory from '@/helpers/history';
+import Button from '@/ui/Button';
+import DisableScroll from '@/ui/DisableScroll';
 
 const onBackClick = props => () => {
     const { deleteError } = props;

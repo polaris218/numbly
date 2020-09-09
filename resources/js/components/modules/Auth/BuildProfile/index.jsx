@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react';
 import { connect } from 'react-redux';
-import { getSocialData } from 'actions/socialData';
-import { getProfile } from 'actions/profile';
-import Loader from 'ui/Loader';
-import DisableScroll from 'ui/DisableScroll';
+import { getSocialData } from '@/actions/socialData';
+import { getProfile } from '@/actions/profile';
+import Loader from '@/ui/Loader';
+import DisableScroll from '@/ui/DisableScroll';
 
 const CollectingScreen = props => {
     const { history, ready, loading, getSocialData, getProfile } = props;

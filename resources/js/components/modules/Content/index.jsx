@@ -1,11 +1,11 @@
 import React from 'react';
 import classNames from 'classnames';
 
-import getHistory from 'helpers/history';
-import { isLoginScreen, isRecommendedScreen } from 'helpers/locations';
-import Swiper from 'helpers/swipe';
-import Drawer from 'ui/Drawer';
-import Header from 'ui/Header';
+import getHistory from '@/helpers/history';
+import { isLoginScreen, isRecommendedScreen } from '@/helpers/locations';
+import Swiper from '@/helpers/swipe';
+import Drawer from '@/ui/Drawer';
+import Header from '@/ui/Header';
 
 class Content extends React.Component {
     state = {

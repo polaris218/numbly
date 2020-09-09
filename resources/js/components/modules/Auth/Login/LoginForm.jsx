@@ -5,10 +5,10 @@
 import React from 'react';
 import { withFormik } from 'formik';
 
-import Button from 'ui/Button';
-import Input from 'ui/Input';
-import { ReactComponent as UserPic } from 'assets/svg/user.svg';
-import { ReactComponent as PasswordPic } from 'assets/svg/password.svg';
+import Button from '@/ui/Button';
+import Input from '@/ui/Input';
+import { ReactComponent as UserPic } from '@/assets/svg/user.svg';
+import { ReactComponent as PasswordPic } from '@/assets/svg/password.svg';
 import schema from './formSchema';
 
 const LoginForm = props => {
