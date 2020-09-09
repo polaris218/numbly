@@ -20,6 +20,5 @@ mix.webpackConfig({
       }
    })
    .react('resources/js/app.js', 'public/js')
-   // .sass('resources/sass/app.scss', 'public/css')
    .sass('resources/js/components/styles/index.sass', 'public/css')
-   .options({ processCssUrls: false });
+   // .options({ processCssUrls: false });
