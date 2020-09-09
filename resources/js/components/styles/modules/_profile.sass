@@ -1,0 +1,143 @@
+.profile
+    &-scrollable
+        height: calc(100% - 114px)
+        padding-bottom: 6rem
+
+    &-main
+        position: relative
+        padding-bottom: 1.5rem    
+
+        &::before
+            content: ''
+            position: absolute
+            top: -60px
+            bottom: 0
+            left: 0
+            right: 0
+            background-size: cover
+            background-repeat: no-repeat
+            background-image: url('../../assets/svg/header.svg')
+            background-position: center
+            z-index: -1
+
+        &__wrap
+            display: flex
+            align-items: center
+
+        &__img
+            width: 90px
+            height: 90px
+            flex: 0 0 90px
+            border-radius: 50%
+            object-fit: cover
+            object-position: center
+
+        &-info
+            flex: 1
+            padding: 0 1rem
+            color: #ffffff
+
+            &__name
+                font-weight: 300
+                margin: 0
+                font-size: 1.3rem  
+                margin-bottom: 0.5rem 
+
+            &__desc
+                font-weight: 200
+                margin: 0
+                font-size: 0.9rem
+                color: #dadada
+
+                &:empty
+                    display: none
+
+
+    &-social
+        padding: 1.5rem 0
+
+        &__net
+            color: $gray
+            text-transform: uppercase
+            font-size: 0.8rem
+            margin-bottom: 1rem
+
+        &__info
+            font-weight: 400
+            color: #2e2e2e
+            font-size: 1rem
+            margin-bottom: 0.2rem
+            display: flex
+
+            &--data
+                margin-left: 0.3em
+                flex: 1
+
+                &:empty
+                    position: relative
+
+                    &::after
+                        content: ''
+                        position: absolute
+                        left: 0
+                        top: 0
+                        height: 100%
+                        width: 100%
+                        background-color: #efefef
+                        transition: all .25s
+                        border-radius: .25rem
+
+            &--last
+                margin-bottom: 1rem
+
+    &-pool
+        background-color: #efefef
+        border-radius: 0.5rem
+        padding: 0.25rem 0.25rem 0 
+        margin: 0 -0.25rem
+        min-height: 8rem
+
+        &__item
+            display: inline-block
+            padding: 0.25rem
+            background-color: #ffffff
+            border-radius: 0.5rem
+            margin: 0 0.25rem 0.25rem 0
+            font-size: .9rem
+
+            @include respond-width(medium)
+                font-size: 1rem
+                margin: 0 0.5rem 0.5rem 0
+
+    &-summary
+        &__title
+            min-width: 80px
+        &__divider
+            line-height: 21px
+        &__age
+            padding: 0
+            &:empty
+                width: 25px
+                height: 21px
+
+            &-wrap
+                align-items: center
+                flex: 0
+        &__budget
+            padding: 0
+            min-width: 21px
+            flex: 0 1 auto
+
+            &:empty
+                min-width: 50px
+            
+            &-wrap
+                width: 100%
+
+        &__currency
+            color: #a2a2a2
+            line-height: 21px
+            padding-left: .5rem
+
+
+

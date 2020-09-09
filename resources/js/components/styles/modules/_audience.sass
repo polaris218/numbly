@@ -1,0 +1,107 @@
+.audience
+    &-title
+        font-size: 1.4rem
+        font-weight: 300
+
+    &-form
+        padding-top: 2rem
+    
+    &-label
+        display: flex
+        flex-direction: row
+        align-items: center
+        margin-bottom: 25px !important
+
+        &--last
+            margin-bottom: 40px !important
+        
+        &__text
+            display: block
+            width: 100px
+            font-size: 0.8rem
+            color: #a2a2a2
+            text-transform: uppercase
+            @include respond-width(medium)
+                margin-bottom: 0
+                flex: 0 0 100px
+
+    &-dropdown
+        @include respond-width(medium)
+            flex: 1
+
+        .Dropdown
+            &-control
+                border: 0
+                border-radius: 4px
+                transition: all .25s
+            &-arrow
+                display: none
+                top: 16px
+                transition: all .25s
+            &-menu
+                border-bottom-left-radius: 4px
+                border-bottom-right-radius: 4px
+
+        &.is-open
+            .Dropdown
+                &-control
+                    border-bottom-left-radius: 0
+                    border-bottom-right-radius: 0
+                &-arrow
+                    border-color: #999 transparent transparent
+                    border-width: 5px 5px 0
+                    transform: rotate(-180deg)
+
+    &-age
+        display: flex
+        justify-content: flex-start
+        max-width: 100%
+        @include respond-width(medium)
+            flex: 1 0
+            max-width: calc(100% - 100px)
+
+        &-input
+            appearance: none
+            display: block
+            padding: 8px 10px
+            color: #2e2e2e
+            // width: calc(50% - 20px)
+            border: 0
+            // border: 1px solid $gray
+            border-radius: 4px
+            font-size: 1rem
+            // flex: 1
+
+            &:focus
+                outline: 0
+
+        &-divider
+            width: 40px
+            display: block
+            flex: 0 0 40px
+            text-align: center
+            line-height: 36px
+            color: $gray
+
+    &-interest
+        margin-bottom: 1rem
+        display: flex
+        flex-direction: column
+        @include respond-width(medium)
+            flex-direction: row
+        .audience-label__text
+            margin-bottom: 1rem
+        .profile-pool
+            flex: 1
+            margin: 0
+
+    &-errors
+        display: block
+        text-align: center
+        font-size: 0.9rem
+        margin-bottom: 1.5rem
+
+    &-submit
+        width: 100%
+
+

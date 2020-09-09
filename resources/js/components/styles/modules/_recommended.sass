@@ -1,0 +1,33 @@
+$tab: #363e7d
+$tab-selected: darken($tab, 10)
+    
+.recommended
+    padding: 0 0 2rem
+    position: relative
+
+    &__scroll
+        height: calc(100vh - 110px)
+
+    &__wrap
+        display: flex
+        flex-wrap: nowrap
+        overflow: hidden
+
+    &__content
+        flex: 1 0 100%
+        width: 100%
+        position: relative
+        transition: all .25s
+
+        &--out
+            transform: translateX(-100%)
+
+    &-list
+        opacity: 1
+        transition: all .25s
+
+        &--hidden
+            opacity: 0
+    
+@import "recommended/item"
+@import "recommended/tabs"

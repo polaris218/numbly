@@ -1,0 +1,84 @@
+.nimbly-login
+    min-height: 500px
+    height: 100vh
+    padding: 20px
+    background-image: url('../../assets/img/login/bg.jpg')
+    background-size: cover
+    background-repeat: no-repeat
+    background-position: center
+    display: flex
+    flex-direction: column
+    justify-content: center
+    text-align: center
+    overflow: hidden
+
+    &__wrap
+        display: flex
+        flex-direction: column
+        align-items: center
+        margin: 0 auto
+        min-width: 280px
+        max-width: 320px
+        width: 100%
+
+    &__title
+        font-weight: 300
+        font-size: 1.5rem
+        color: #ffffff
+        letter-spacing: 0.02em
+        margin: 0
+        padding-bottom: 20px
+
+        @include respond-height(small)
+            font-size: 1.9rem
+            padding-bottom: 40px
+
+    &__input
+        @include respond-height(small)
+            margin-bottom: 20px
+
+    &__accent
+        color: $login-accent
+
+    &__pic
+        width: 100px
+        padding-top: 20px
+        padding-bottom: 60px
+
+        @include respond-height(small)
+            width: 120px
+            padding-top: 20px
+            padding-bottom: 120px
+
+
+    &__prescription
+        margin: 0
+        font-size: 1rem
+        color: #ffffff
+        opacity: 0.7
+
+    &__content
+        position: relative
+        width: 100%
+        display: flex
+
+
+    &__block
+        position: absolute
+        top: 0
+        left: 0
+        display: flex
+        flex-direction: column
+        justify-content: center
+        transition: all .25s
+        width: 100%
+        min-height: 100%
+
+    &__hidden
+        transform: translateX(100vw)
+        pointer-events: none
+
+    &__button
+        &-wrap
+            transform: translateX(-100vw)
+
