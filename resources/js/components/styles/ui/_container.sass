@@ -1,0 +1,12 @@
+.container 
+    min-width: 320px
+    padding: 0 20px
+
+    &--limited
+        max-width: 700px
+        margin: 0 auto
+
+    &--fluid
+        margin: 0 auto
+        @include respond-width(large)
+            max-width: 1024px

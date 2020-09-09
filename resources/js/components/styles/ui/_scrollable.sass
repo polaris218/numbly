@@ -1,0 +1,25 @@
+.scrollable
+    overflow: auto
+    -webkit-overflow-scrolling: touch
+    // transition: all .125s
+
+    &--default
+        height: calc(100vh - 60px)
+
+    &--full
+        height: 100vh
+
+.updater
+    position: absolute
+    top: -60px
+    left: 0
+    width: 100%
+    height: 100px
+    margin: 0 auto
+
+    &--rec
+        top: -114px
+
+    & > svg
+        width: 100%
+        height: 100%

@@ -1,0 +1,23 @@
+@import './variables'
+    
+@mixin respond-height($media)
+    @if $media == tiny
+        @media only screen and (min-height: 0)
+            @content
+    @if $media == small
+        @media only screen and (min-height: $medium-height)
+            @content
+
+@mixin respond-width($media)
+    @if $media == tiny
+        @media only screen and (min-width: 0)
+            @content
+    @if $media == small
+        @media only screen and (min-width: $small-width)
+            @content
+    @if $media == medium
+        @media only screen and (min-width: $medium-width)
+            @content
+    @if $media == large
+        @media only screen and (min-width: $large-width)
+            @content
