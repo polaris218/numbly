@@ -69,7 +69,7 @@ class Input extends React.Component {
         return (
             <div className={ wrapStyle }>
                 <i className={ styles.icon }>
-                    { icon.render() }
+                    {/* { icon.render() } */}
                 </i>
                 <input
                     name={ id }

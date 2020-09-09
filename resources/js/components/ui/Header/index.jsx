@@ -53,7 +53,7 @@ class Header extends React.Component {
                     className={ buttonStyle }
                     onClick={ onButtonClick }
                 >
-                    <BurgerIcon />
+                    {/* <BurgerIcon /> */}
                     <span className="visually-hidden">Open mobile menu</span>
                 </button>
                 <h1 className="header__title">{ title }</h1>
