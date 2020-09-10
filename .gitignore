@@ -33,3 +33,4 @@ ngrok
 pagekite.py
 .env
 node_modules
+/public

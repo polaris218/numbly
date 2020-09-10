@@ -62,7 +62,7 @@ class AuthScreen extends React.Component {
     }
 
     openFacebook = () => {
-        const url = `https://www.facebook.com/v4.0/dialog/oauth?client_id=${ process.env.REACT_APP_FB_ID }&redirect_uri=${ process.env.REACT_APP_REDIRECT_URI }&state=${ this.getState() }&scope=instagram_basic,ads_management,ads_read,manage_pages,business_management`;
+        const url = `https://www.facebook.com/v4.0/dialog/oauth?client_id=${ process.env.MIX_FACEBOOK_APP_ID }&redirect_uri=${ process.env.MIX_FACEBOOK_REDIRECT }&state=${ this.getState() }&scope=instagram_basic,ads_management,ads_read,manage_pages,business_management`;
         window.open(url);
     }
 
